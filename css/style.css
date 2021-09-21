@@ -1,5 +1,5 @@
 body {
-  background-color: aqua;
+  background-color: black;
 }
 
 h1 {
@@ -7,22 +7,34 @@ h1 {
 }
 
 div.container {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   background-color: brown;
-  position: absolute;
-  top: 500px;
+  position: relative;
+  top: 300px;
   left: 400px;
-  border-radius: 100%;
+  
 }
 
-div.square {
+div.box {
   height: 50px;
   width: 50px;
-  background-color: blue;
-  top: 25px;
-  left: 25px;
+  display: inline-block;
+}
+
+div#circle-1 {
+  background-color: chartreuse;
+  top: 40px;
+}
+
+div#circle-2 {
+  background-color: white;
   position: relative;
+  top: 30px;
+}
+
+div#circle-3 {
+  background-color: blue;
 }
 
 h1 {
